@@ -15,7 +15,7 @@ body {
     background-color: #f9f9f9;
   }
   
-  .formulaire input,
+  .formulaire input, 
   .formulaire select,
   .formulaire button {
     width: 100%;
@@ -26,7 +26,7 @@ body {
   
   .formulaire button {
     background-color: #4CAF50;
-    color: white;
+    color: rgb(249, 247, 247);
     border: none;
     cursor: pointer;
   }

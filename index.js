@@ -1,5 +1,5 @@
-const nomProduit=document.getElementById("nomProduit")
-const produits=document.getElementById("listeProduits")
+const nomProduit=document.getElementById("nomtel");
+const produits=document.getElementById("listeProduits");
 const categorie=document.querySelector("#categorie")
 
 const prix=document.getElementById("prix")
@@ -7,8 +7,11 @@ const prix=document.getElementById("prix")
 const quantite=document.getElementById("quantite")
 const btn=document.querySelector("#ajouterProduit")
 
-btn.addEventListener("click",function(e){
-    e.preventDefault()
+btn.addEventListener("click",function(){
+   e.preventDefault()
+   if(nomProduit.value==""){
+    alert("vide")
+   }
     let produit={
         nom:nomProduit.value,
         categorie:categorie.value,
